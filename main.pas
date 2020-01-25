@@ -205,7 +205,7 @@ end;
 procedure TMainForm.AboutSpeedButtonClick(Sender: TObject);
 begin
   Application.MessageBox('BioCalc v' + VERSION + sLineBreak +
-    'A software tool for the calculation of biovolume of phytoplankton samples' +
+    'A software tool for calculating biovolume of phytoplankton samples' +
     sLineBreak + '(c) 2017-2019 Mauro J. Cavalcanti' + sLineBreak +
     'maurobio@gmail.com', 'Information', MB_ICONINFORMATION);
 end;
