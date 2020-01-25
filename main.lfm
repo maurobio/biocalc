@@ -1,7 +1,7 @@
 object MainForm: TMainForm
-  Left = 263
+  Left = 217
   Height = 507
-  Top = 123
+  Top = 46
   Width = 590
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
@@ -147,7 +147,7 @@ object MainForm: TMainForm
   }
   OnCreate = FormCreate
   Position = poDesktopCenter
-  LCLVersion = '2.0.6.0'
+  LCLVersion = '1.8.2.0'
   object CloseButton: TBitBtn
     Left = 306
     Height = 30
@@ -198,18 +198,18 @@ object MainForm: TMainForm
   end
   object RecordLabel: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 12
-    Width = 50
+    Width = 54
     Caption = 'Record # '
     ParentColor = False
   end
   object ShapesComboBox: TComboBox
     Left = 132
-    Height = 23
+    Height = 29
     Top = 76
     Width = 440
-    ItemHeight = 15
+    ItemHeight = 0
     Items.Strings = (
       'sphere'
       'prolate spheroid'
@@ -248,15 +248,15 @@ object MainForm: TMainForm
   end
   object NumberLabel: TLabel
     Left = 75
-    Height = 15
+    Height = 17
     Top = 13
-    Width = 6
+    Width = 7
     Caption = '0'
     ParentColor = False
   end
   object bLabel: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 145
     Width = 7
     Caption = 'b'
@@ -266,7 +266,7 @@ object MainForm: TMainForm
   end
   object dLabel: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 113
     Width = 7
     Caption = 'a'
@@ -276,7 +276,7 @@ object MainForm: TMainForm
   end
   object cLabel: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 178
     Width = 6
     Caption = 'c'
@@ -286,9 +286,9 @@ object MainForm: TMainForm
   end
   object a1Label: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 211
-    Width = 15
+    Width = 14
     Caption = 'a1'
     Font.Style = [fsBold, fsItalic]
     ParentColor = False
@@ -296,9 +296,9 @@ object MainForm: TMainForm
   end
   object b1Label: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 239
-    Width = 15
+    Width = 14
     Caption = 'b1'
     Font.Style = [fsBold, fsItalic]
     ParentColor = False
@@ -306,9 +306,9 @@ object MainForm: TMainForm
   end
   object c1Label: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 269
-    Width = 14
+    Width = 13
     Caption = 'c1'
     Font.Style = [fsBold, fsItalic]
     ParentColor = False
@@ -316,7 +316,7 @@ object MainForm: TMainForm
   end
   object a2Label: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 297
     Width = 14
     Caption = 'a2'
@@ -326,7 +326,7 @@ object MainForm: TMainForm
   end
   object a4Label: TLabel
     Left = 18
-    Height = 15
+    Height = 17
     Top = 403
     Width = 14
     Caption = 'a4'
@@ -336,7 +336,7 @@ object MainForm: TMainForm
   end
   object aEdit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 109
     Width = 80
     Enabled = False
@@ -345,7 +345,7 @@ object MainForm: TMainForm
   end
   object bEdit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 141
     Width = 80
     Enabled = False
@@ -354,7 +354,7 @@ object MainForm: TMainForm
   end
   object cEdit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 174
     Width = 80
     Enabled = False
@@ -363,7 +363,7 @@ object MainForm: TMainForm
   end
   object a1Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 207
     Width = 80
     Enabled = False
@@ -372,7 +372,7 @@ object MainForm: TMainForm
   end
   object b1Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 235
     Width = 80
     Enabled = False
@@ -381,7 +381,7 @@ object MainForm: TMainForm
   end
   object c1Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 265
     Width = 80
     Enabled = False
@@ -390,7 +390,7 @@ object MainForm: TMainForm
   end
   object a2Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 293
     Width = 80
     Enabled = False
@@ -399,7 +399,7 @@ object MainForm: TMainForm
   end
   object a4Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 399
     Width = 80
     Enabled = False
@@ -408,9 +408,9 @@ object MainForm: TMainForm
   end
   object VolumeLabel: TLabel
     Left = 211
-    Height = 21
+    Height = 23
     Top = 437
-    Width = 33
+    Width = 26
     Caption = 'V = '
     Font.Height = -16
     Font.Style = [fsBold, fsItalic]
@@ -419,9 +419,9 @@ object MainForm: TMainForm
   end
   object AreaLabel: TLabel
     Left = 306
-    Height = 21
+    Height = 23
     Top = 437
-    Width = 33
+    Width = 27
     Caption = 'A = '
     Font.Height = -16
     Font.Style = [fsBold, fsItalic]
@@ -430,17 +430,17 @@ object MainForm: TMainForm
   end
   object VolumeValueLabel: TLabel
     Left = 250
-    Height = 15
+    Height = 17
     Top = 440
-    Width = 6
+    Width = 7
     Caption = '0'
     ParentColor = False
   end
   object AreaValueLabel: TLabel
     Left = 345
-    Height = 15
+    Height = 17
     Top = 440
-    Width = 6
+    Width = 7
     Caption = '0'
     ParentColor = False
   end
@@ -492,10 +492,11 @@ object MainForm: TMainForm
   end
   object CalcBtn: TBitBtn
     Left = 210
-    Height = 30
+    Height = 31
     Hint = 'Calculate results'
     Top = 464
-    Width = 75
+    Width = 86
+    AutoSize = True
     Caption = 'Calculate'
     Enabled = False
     Glyph.Data = {
@@ -587,7 +588,7 @@ object MainForm: TMainForm
   end
   object b4Label: TLabel
     Left = 18
-    Height = 15
+    Height = 17
     Top = 431
     Width = 14
     Caption = 'b4'
@@ -597,7 +598,7 @@ object MainForm: TMainForm
   end
   object b4Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 427
     Width = 80
     Enabled = False
@@ -615,7 +616,7 @@ object MainForm: TMainForm
   end
   object b2Label: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 325
     Width = 14
     Caption = 'b2'
@@ -625,7 +626,7 @@ object MainForm: TMainForm
   end
   object a3Label: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 352
     Width = 14
     Caption = 'a3'
@@ -635,7 +636,7 @@ object MainForm: TMainForm
   end
   object b3Label: TLabel
     Left = 18
-    Height = 15
+    Height = 17
     Top = 378
     Width = 14
     Caption = 'b3'
@@ -645,7 +646,7 @@ object MainForm: TMainForm
   end
   object b2Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 321
     Width = 80
     Enabled = False
@@ -654,7 +655,7 @@ object MainForm: TMainForm
   end
   object a3Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 348
     Width = 80
     Enabled = False
@@ -663,7 +664,7 @@ object MainForm: TMainForm
   end
   object b3Edit: TEdit
     Left = 38
-    Height = 23
+    Height = 29
     Top = 374
     Width = 80
     Enabled = False
@@ -672,23 +673,23 @@ object MainForm: TMainForm
   end
   object MorphotypeLabel: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 80
-    Width = 66
+    Width = 68
     Caption = 'Morphotype'
     ParentColor = False
   end
   object SpeciesLabel: TLabel
     Left = 16
-    Height = 15
+    Height = 17
     Top = 50
-    Width = 39
+    Width = 43
     Caption = 'Species'
     ParentColor = False
   end
   object SpeciesEdit: TEdit
     Left = 131
-    Height = 23
+    Height = 29
     Top = 46
     Width = 441
     TabOrder = 0
