@@ -69,7 +69,7 @@ type
 
 const
   PI: extended = 3.1415926535897932385;
-  VERSION = '0.0.4';
+  VERSION = '0.0.5';
 
 var
   MainForm: TMainForm;
@@ -206,7 +206,7 @@ procedure TMainForm.AboutSpeedButtonClick(Sender: TObject);
 begin
   Application.MessageBox('BioCalc v' + VERSION + sLineBreak +
     'A software tool for calculating biovolume of phytoplankton samples' +
-    sLineBreak + '(c) 2017-2019 Mauro J. Cavalcanti' + sLineBreak +
+    sLineBreak + '(c) 2017-2023 Mauro J. Cavalcanti' + sLineBreak +
     'maurobio@gmail.com', 'Information', MB_ICONINFORMATION);
 end;
 
