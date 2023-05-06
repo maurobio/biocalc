@@ -69,7 +69,7 @@ type
 
 const
   PI: extended = 3.1415926535897932385;
-  VERSION = '0.4.5';
+  VERSION = '0.0.5';
 
 var
   MainForm: TMainForm;
